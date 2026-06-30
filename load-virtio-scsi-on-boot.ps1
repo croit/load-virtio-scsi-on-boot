@@ -629,7 +629,7 @@ public class ConfigManager {
         Write-Host "`nManual removal required:" -ForegroundColor Cyan
         Write-Host "- Device Manager: devmgmt.msc -> Uninstall $($drv.DeviceDesc)" -ForegroundColor Gray
         Write-Host "- devcon.exe: devcon remove ROOT\\$($drv.Name.ToUpper())\0000" -ForegroundColor Gray
-        return
+        continue
     }
 
     Write-Host "`nStep 1: Finding VirtIO phantom devices..." -ForegroundColor Yellow
