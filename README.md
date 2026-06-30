@@ -10,11 +10,11 @@ Remarks
 * On Windows before Windows Server 2022 and Windows 10 2004 the software device created by the script will not be removed automatically, but this can be done via device manager. It can also be left there, no harm in that.
 * You should have a backup of your system.
 * This script was tested only
- * on Windows Server 2025 Standard Edition (24H2)
- * on Windows Server 2022 Datacenter Edition (21H2)
- * with virtio drivers version .266 .271 .285 
- * on Windows Server 2016 Standard Edition
- * with virtio drivers version .271
+  * on Windows Server 2025 Standard Edition (24H2)
+  * on Windows Server 2022 Datacenter Edition (21H2)
+  * with virtio drivers version .266 .271 .285 
+  * on Windows Server 2016 Standard Edition
+  * with virtio drivers version .271
 * nearly all code in here was written by AI
 
 How to use
