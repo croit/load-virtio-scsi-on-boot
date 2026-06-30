@@ -19,17 +19,17 @@ Remarks
 
 How to use
 either 
-* install the vioscsi.inf/viostor.inf before OR
-* tell the script to do it by -ScsiInfPath and/or -BlockInfPath parameter OR
-* use virtio-win-guest-tools.exe /S to install it
+* install the vioscsi.inf/viostor.inf before *OR*
+* tell the script to do it by `-ScsiInfPath` and/or `-BlockInfPath` parameter OR
+* use `virtio-win-guest-tools.exe /S` to install it
 
 depending on the set security policy it might be required to run the script via
-PowerShell /ExecutionPolicy Bypass /File <path-to-this-script-file> [-Driver <scsi|block|both>] [-ScsiInfPath <path>] [-BlockInfPath <path>]
+`PowerShell /ExecutionPolicy Bypass /File <path-to-this-script-file> [-Driver <scsi|block|both>] [-ScsiInfPath <path>] [-BlockInfPath <path>]`
 
 Driver options:
-- scsi  (default) - Install VirtIO SCSI driver only
-- block           - Install VirtIO Block driver only
-- both            - Install both drivers
+- `scsi`  (default) - Install VirtIO SCSI driver only
+- `block`           - Install VirtIO Block driver only
+- `both`            - Install both drivers
 
 How does the script work?
 * install the driver(s), if requested
