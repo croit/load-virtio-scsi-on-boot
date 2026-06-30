@@ -22,6 +22,7 @@ either
 * install the vioscsi.inf/viostor.inf before OR
 * tell the script to do it by -ScsiInfPath and/or -BlockInfPath parameter OR
 * use virtio-win-guest-tools.exe /S to install it
+
 depending on the set security policy it might be required to run the script via
 PowerShell /ExecutionPolicy Bypass /File <path-to-this-script-file> [-Driver <scsi|block|both>] [-ScsiInfPath <path>] [-BlockInfPath <path>]
 
