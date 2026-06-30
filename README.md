@@ -39,3 +39,5 @@ How does the script work?
 * use pnputil to remove the device
 The driver-to-device assignment marks the driver for being loaded on boot.
 Now the Windows is ready for migration to a VirtIO based SCSI or Block disk.
+
+The ISO-File contains the content of this repo only.
